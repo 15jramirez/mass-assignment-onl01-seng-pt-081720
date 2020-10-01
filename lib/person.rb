@@ -7,6 +7,4 @@ class Person
   def initialize(attributes)
     binding.pry
   end
-end
-
- attributes.each {|key, value| self.send(key, value)}
+end attributes.each {|key, value| self.send(key, value)}
