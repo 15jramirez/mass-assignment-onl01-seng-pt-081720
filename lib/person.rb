@@ -8,3 +8,5 @@ class Person
     binding.pry
   end
 end
+
+ attributes.each {|key, value| self.send(key, value)}
